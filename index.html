@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>welcome to 974 page!</title>
+    <title>f.a's Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Hi, I'm fa!</h1>
-        <nav>
+    <div class="window">
+        <div class="titlebar">
+            <span>🏠 Home</span>
+            <span class="close-btn">✕</span>
+        </div>
+        <div class="menubar">
+            <span>File</span>
+            <span>Edit</span>
+            <span>View</span>
+            <span>Go</span>
+            <span>Help</span>
+        </div>
+
+        <nav class="navbar">
             <a href="#about">About</a>
+            <a href="#interests">Interests</a>
             <a href="#projects">Projects</a>
         </nav>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>hello today im here to be part of the stardance challenege and my intrests are coding and building hardware projects this page about knowing of me .</p>
-        <a href="https://stardance.hackclub.com">open stardance</a>
-        <i>im so happyto learn about ittt</i>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="panel">
-            cmonnn what are you waiting for?
+        <div class="banner">
+            <p>Gamer. Coder. Hardware Tinkerer.</p>
+            <p>@974.fqa</p>
         </div>
-    </section>
+
+        <section class="profile-section" id="about">
+            <div class="profile-left">
+                <img src="profile.jpg" alt="f.a profile picture" class="profile-pic">
+                <p><strong>Socials</strong></p>
+                <p>/inst <a href="https://instagram.com/974.fqa" target="_blank">@974.fqa</a></p>
+                <div class="cat-box">
+                    <img src="cat.jpg" alt="my cat" class="cat-pic">
+                </div>
+            </div>
+
+            <div class="profile-right">
+                <p class="role">High School Student</p>
+                <h1>f.a</h1>
+                <p class="bio">
+                    I'm a high school student who loves exploring new things — from gaming to coding to tinkering with hardware components like Raspberry Pi and Arduino. I'm also into photography. This page is where I share a bit about who I am and what I'm building.
+                </p>
+
+                <h2 id="interests">Interests</h2>
+                <div class="interest-grid">
+                    <div class="interest-box">Gaming</div>
+                    <div class="interest-box">Coding</div>
+                    <div class="interest-box">Hardware (Raspberry Pi, Arduino)</div>
+                    <div class="interest-box">Photography</div>
+                    <div class="interest-box">Exploring</div>
+                </div>
+
+                <h2 id="projects">My Work</h2>
+                <div class="work-box">
+                    <p>Built this personal website for the Stardance Hack Club challenge — coded with HTML and CSS, deployed with GitHub Pages.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="taskbar">
+        <span>🏠 Home</span>
+        <span>🛠️ Projects</span>
+        <span>📷 Instagram</span>
+    </div>
 </body>
 </html>
