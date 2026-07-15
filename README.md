@@ -13,4 +13,4 @@ A retro desktop-style personal site built with HTML and CSS. It includes an Abou
 I used AI (Claude) to help fix my code when I got confused, and to catch a few lines I had missed or gotten wrong. I also used it to fix the design and add what I wanted to my page. The overall structure and content of the page were written by me.
 
 ## Live Site
-[Add your GitHub Pages link here once deployed]
+https://facxts.github.io/my-personal-page/
