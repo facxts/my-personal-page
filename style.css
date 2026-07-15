@@ -56,10 +56,11 @@ body {
 
 .banner {
     background: linear-gradient(to bottom, #f5c56b, #d97a5f);
-    text-align: right;
+    text-align: center;
     padding: 40px 30px;
-    color: #222;
+    font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 .profile-section {
@@ -71,6 +72,7 @@ body {
 
 .profile-left {
     width: 250px;
+    text-align: center;
 }
 
 .profile-pic {
@@ -79,44 +81,29 @@ body {
     border: 2px solid #000;
 }
 
-.cat-box {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.cat-pic {
-    width: 60%;
-    border-radius: 6px;
-}
-
 .role {
     color: #444;
     margin-bottom: 0;
 }
 
 .bio {
-    max-width: 550px;
+    max-width: 500px;
     line-height: 1.5;
 }
 
-.interest-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.interest-box {
-    background: #f5d76e;
-    padding: 10px 16px;
-    border-radius: 20px;
-    font-size: 14px;
+.work-section, .skills-section {
+    padding: 30px;
+    background: #f0f0f0;
 }
 
 .work-box {
-    background: #ffe9a8;
+    background: #f5d76e;
     padding: 20px;
     border-radius: 8px;
+}
+
+.skills-section ul {
+    line-height: 1.8;
 }
 
 .taskbar {
